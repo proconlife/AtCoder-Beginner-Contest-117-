@@ -1,0 +1,5 @@
+input()
+l=list(map(int,input().split()))
+l.sort()
+m=l.pop()
+print("Yes" * (m<sum(l)) or "No")
